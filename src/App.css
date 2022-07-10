@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+#root{
+  font-family: Inter;
+}
+
+*{
+  box-sizing: border-box;
+  border: 1px solid #0f0;
+  background-color: #222;
+  color: #61DBFB;
+}
+body{
+  margin: 0;
+}
+img{
+  height: 28px;
+  width: 50px;
+}
+.medfont{
+  font-weight: 600;
+  color: #61DBFB;
+}
+.smallfont{
+  font-weight: 400;
+}
+.navcontainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imgcontainer{
+  display: flex;
+  align-items: center;
+}
